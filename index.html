@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Aria&#39;s Portfolio</title>
+  <meta name="description" content="Qsa Aria, also known as Bimo or monosaurus. IT support and field technician in Jakarta. Hardware and network troubleshooting, CTF and security practice.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<!--
+  How to edit: change the text below directly. Headings with class="px" are drawn as pixel
+  art by script.js from their text, so just edit the text inside them.
+  Icons are <span data-icon="..."> placeholders filled in by script.js
+  (doc, folder, lock, case, book, mail, up).
+-->
+<div class="room">
+  <a class="skip" href="#intro">Skip to content</a>
+  <div class="monitor">
+    <div class="screen">
+      <header id="desktop" class="desktop">
+        <nav aria-label="Sections">
+          <ul class="icons">
+            <li><a href="#intro" class="icon-link"><span class="ico" data-icon="doc" data-size="4"></span><span>Intro</span></a></li>
+            <li><a href="#specs" class="icon-link"><span class="ico" data-icon="pc" data-size="4"></span><span>PC specs</span></a></li>
+            <li><a href="#work" class="icon-link"><span class="ico" data-icon="folder" data-size="4"></span><span>Work</span></a></li>
+            <li><a href="#security" class="icon-link"><span class="ico" data-icon="lock" data-size="4"></span><span>Security and CTF</span></a></li>
+            <li><a href="#skills" class="icon-link"><span class="ico" data-icon="case" data-size="4"></span><span>Skills</span></a></li>
+            <li><a href="#education" class="icon-link"><span class="ico" data-icon="book" data-size="4"></span><span>Education</span></a></li>
+            <li><a href="#contact" class="icon-link"><span class="ico" data-icon="mail" data-size="4"></span><span>Contact</span></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+    <!-- ===== INTRO ===== -->
+    <section id="intro" class="window" aria-labelledby="intro-h">
+      <div class="titlebar">
+        <span aria-hidden="true">Intro</span>
+      </div>
+      <div class="win-body">
+        <h1 id="intro-h" tabindex="-1" class="name"><span class="px" data-pixel-size="7">Qsa Aria</span><span class="aka"> also known as Bimo or monosaurus</span></h1>
+        <div class="hero">
+          <div>
+            <p class="lede">IT support and field technician. I troubleshoot hardware and networks, and practice security on the side.</p>
+            <div class="actions">
+              <a href="mailto:qsa.aria@gmail.com" class="btn primary">Email me</a>
+              <a href="https://drive.google.com/file/d/1xcFM4zO_D7fVg6WINY65bSfsQYm3CYX3/view?usp=sharing" class="btn" target="_blank" rel="noopener noreferrer">View CV (Google Drive)<span class="sr-only"> (opens in a new tab)</span></a>
+            </div>
+          </div>
+          <dl class="facts">
+            <div><dt>Location</dt><dd>Jakarta, Indonesia</dd></div>
+            <div><dt>Open to</dt><dd>IT Support, Field Technician</dd></div>
+            <div><dt>Next</dt><dd>Ausbildung as Fachinformatiker in Germany</dd></div>
+            <div><dt>Languages</dt><dd>Indonesian (native), English (TOEIC 830), German (Goethe-Zertifikat B1 modules)</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PC SPECS ===== -->
+    <section id="specs" class="window" aria-labelledby="specs-h">
+      <div class="titlebar">
+        <span aria-hidden="true">PC specs</span>
+        <a class="win-btn" href="#desktop" aria-label="Back to the desktop"><span data-icon="up" data-size="3"></span></a>
+      </div>
+      <div class="win-body">
+        <h2 id="specs-h" tabindex="-1" class="px h2" data-pixel-size="5">PC specs</h2>
+        <p>My daily setup.</p>
+        <dl class="skills specs">
+          <div><dt>Motherboard</dt><dd>B550M AORUS PRO</dd></div>
+          <div><dt>Processor</dt><dd>AMD Ryzen 5 3600 (6-core)</dd></div>
+          <div><dt>RAM</dt><dd>Klevv Bolt XR 32 GB, 3600 MHz (dual channel)</dd></div>
+          <div><dt>Monitor</dt><dd>LG 22MN430M, 75 Hz</dd></div>
+          <div><dt>Keyboard</dt><dd>Noir Timeless82 Classic</dd></div>
+          <div><dt>Mouse</dt><dd>DeathAdder V3 Pro</dd></div>
+          <div><dt>Headphones</dt><dd>dbE Kumo GS1X Pro</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section id="work" class="window" aria-labelledby="work-h">
+      <div class="titlebar">
+        <span aria-hidden="true">Work</span>
+        <a class="win-btn" href="#desktop" aria-label="Back to the desktop"><span data-icon="up" data-size="3"></span></a>
+      </div>
+      <div class="win-body">
+        <h2 id="work-h" tabindex="-1" class="px h2" data-pixel-size="5">Work</h2>
+        <ol class="ledger">
+          <li class="job">
+            <div class="job-id"><span class="sr-only">Job </span>[01]</div>
+            <div class="job-main">
+              <h3>Consultant scorecard dashboard</h3>
+              <p class="status"><span class="label">Status: </span>Design stage</p>
+              <p>I am designing a consultant scorecard and transactions dashboard for a travel management company. The plan is to code it in HTML, CSS and JavaScript and deploy it on Microsoft SharePoint.</p>
+              <p class="tools"><span class="label">Tools: </span><code>Figma, SharePoint</code></p>
+            </div>
+          </li>
+          <li class="job">
+            <div class="job-id"><span class="sr-only">Job </span>[02]</div>
+            <div class="job-main">
+              <h3>Self-hosted CTF platform</h3>
+              <p class="status"><span class="label">Status: </span>In development</p>
+              <p>I am building a Jeopardy-style CTF on CTFd with Claude Code. It has challenges across web, pwn, reverse engineering, crypto, forensics, OSINT and AI prompt injection. The repo is private.</p>
+              <p class="tools"><span class="label">Tools: </span><code>CTFd</code></p>
+            </div>
+          </li>
+          <li class="job">
+            <div class="job-id"><span class="sr-only">Job </span>[03]</div>
+            <div class="job-main">
+              <h3>Kernel-Power crashes that were not the RAM</h3>
+              <p class="status"><span class="label">Status: </span>Resolved</p>
+              <p>A custom Windows PC kept crashing with Kernel-Power Event ID 41. I suspected the DDR4 kit and downclocked it from 3600 to 3200 MT/s as a workaround. The crashes turned out to come from one game, EA&#39;s skate. (installed through Steam). After I stopped playing it, they never came back. The RAM was fine and runs at 3600 MT/s again.</p>
+              <p>I also investigated a TP-Link switch holding throughput at the 100BASE-TX ceiling with high jitter.</p>
+              <p class="tools"><span class="label">Tools: </span><code>Windows Event Viewer, MemTest86, BIOS/UEFI settings</code></p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== SECURITY AND CTF ===== -->
+    <section id="security" class="window" aria-labelledby="security-h">
+      <div class="titlebar">
+        <span aria-hidden="true">Security and CTF</span>
+        <a class="win-btn" href="#desktop" aria-label="Back to the desktop"><span data-icon="up" data-size="3"></span></a>
+      </div>
+      <div class="win-body">
+        <h2 id="security-h" tabindex="-1" class="px h2" data-pixel-size="5">Security and CTF</h2>
+        <div class="block">
+          <h3>MerdekaSiber Cyber Security Engineer Bootcamp</h3>
+          <p class="status"><span class="label">Status: </span>Completed, June to August 2026</p>
+          <p>For the final exam I pentested MerdekaBank, a training banking web app set by the program, and wrote formal reports on SQL injection, IDOR variants, mass assignment, business logic flaws and XSS. Lab work also covered OTP brute forcing, CSRF, Android app testing, and blue-team analysis with Wireshark and Wazuh.</p>
+          <p class="cred"><a href="https://portal.merdekasiber.com/verify/d196711e-6073-4ae1-abbd-74fd694ae7a3" target="_blank" rel="noopener noreferrer">Verify this certificate (Merdeka Siber Academy)<span class="sr-only"> (opens in a new tab)</span></a></p>
+        </div>
+
+        <h3>CTF log</h3>
+        <ol class="dated">
+          <li>
+            <span class="when">Nov 6 to 8, 2026</span>
+            <div>
+              <strong>CSCTF 2026: Total Warfare (Chronos Security)</strong>
+              <p>I played with team Evil_0x1 in the Seniors division. We placed 43rd of 609 teams.</p>
+              <p class="cred"><span class="label">Certificate ID: </span>csctf2026-406b90b3cbd57c6a</p>
+              <p class="cred"><a href="https://certs.chronos-security.ro/verify/csctf2026-406b90b3cbd57c6a" target="_blank" rel="noopener noreferrer">Verify this certificate (Chronos Security)<span class="sr-only"> (opens in a new tab)</span></a></p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Oct 17 to 18, 2026</span>
+            <div>
+              <strong>Securinets CTF 2026, online qualifiers</strong>
+              <p>I played with team Evil_0x1. We solved 8 challenges and placed 75th in the International bracket (85th overall).</p>
+              <p class="cred"><span class="label">Certificate ID: </span>SCTF26-Q-M0310</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Oct 10, 2026</span>
+            <div>
+              <strong>kBxAc CTF 2026</strong>
+              <p>I played with team RUY. The certificate lists rank 6.</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Oct 9 to 10, 2026</span>
+            <div>
+              <strong>ByteMe CTF, Techfest 2026 Anantya (PCCOE Pune, online)</strong>
+              <p>I took part.</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Oct 3 to 4, 2026</span>
+            <div>
+              <strong>CDCTF 2026 (Crimson Defense, University of Alabama)</strong>
+              <p>I played with team Evil_0x1. We placed 5th of 82 teams.</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Sep 30 to Oct 1, 2026</span>
+            <div>
+              <strong>CSSCTF 2026: Return of Nexus (Cybersecurity Society Sydney)</strong>
+              <p>I played with team mono and himself. We placed 108th of 799 teams.</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Sep 2026</span>
+            <div>
+              <strong>Null Origin CTF 2026 (CyberHX)</strong>
+              <p>I played with team RUY. We qualified for the grand finale and took part in it.</p>
+              <p class="cred"><span class="label">Certificate ID: </span>NO-2026-GF-B992C7 (grand finale), NO-2026-3A3C4E (participation)</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Sep 5 to 6, 2026</span>
+            <div>
+              <strong>TFC CTF 26</strong>
+              <p>I played with team RUY. We placed 145th of 504 teams.</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Sep 4 to 6, 2026</span>
+            <div>
+              <strong>NNS CTF 2026</strong>
+              <p>I solved two beginner pwn challenges: BYOC (x86-64 shellcode written with pwntools) and Echo chamber (a format string bug leaking a flag from the stack).</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Jul 27 to Aug 9, 2026</span>
+            <div>
+              <strong>Hacker Holidays CTF (TryHackMe)</strong>
+              <p>I took part in OSINT and steganography, prompt injection against an AI concierge (system prompt leakage), and a boot2root machine.</p>
+              <p class="cred"><span class="label">Certificate ID: </span>THM-XMZLHJN5KN</p>
+            </div>
+          </li>
+        </ol>
+        <p class="cred"><a href="https://ctftime.org/user/271360" target="_blank" rel="noopener noreferrer">My CTFtime profile (monosaurus)<span class="sr-only"> (opens in a new tab)</span></a></p>
+        <p>I play as monosaurus with teams Evil_0x1, RUY and mono and himself (events also include ASIS CTF Quals), work through TryHackMe rooms, and started bug bounty onboarding (HackerOne, Bugcrowd, NASA VDP). I have studied SSRF to cloud metadata and AWS misconfiguration chains (Cognito, IAM, DynamoDB).</p>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="window" aria-labelledby="skills-h">
+      <div class="titlebar">
+        <span aria-hidden="true">Skills</span>
+        <a class="win-btn" href="#desktop" aria-label="Back to the desktop"><span data-icon="up" data-size="3"></span></a>
+      </div>
+      <div class="win-body">
+        <h2 id="skills-h" tabindex="-1" class="px h2" data-pixel-size="5">Skills</h2>
+        <dl class="skills">
+          <div><dt>Support and hardware</dt><dd>PC assembly and upgrades, PC crash diagnosis, memory testing with MemTest86, RAM and switch troubleshooting, OS installation and recovery, Windows and Linux network troubleshooting (DNS, ports, Wi-Fi).</dd></div>
+          <div><dt>Networking</dt><dd>TCP/IP and DNS fundamentals, Cisco Packet Tracer (router-on-a-stick, VLANs, extended ACLs), packet analysis with Wireshark, tcpdump and TShark, OpenVPN.</dd></div>
+          <div><dt>Linux</dt><dd>Kali Linux (dual boot with Windows, plus WSL2), Arch Linux before that, Ubuntu, Docker basics.</dd></div>
+          <div><dt>Security</dt><dd>Burp Suite, Metasploit, pwntools, pwndbg, Wazuh SIEM, Android app testing, web pentest reporting.</dd></div>
+          <div><dt>Build</dt><dd>HTML, CSS, JavaScript, Vue.js 3, Quasar Framework, PHP, MySQL, REST APIs, Git, Python, Figma.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="window" aria-labelledby="education-h">
+      <div class="titlebar">
+        <span aria-hidden="true">Education</span>
+        <a class="win-btn" href="#desktop" aria-label="Back to the desktop"><span data-icon="up" data-size="3"></span></a>
+      </div>
+      <div class="win-body">
+        <h2 id="education-h" tabindex="-1" class="px h2" data-pixel-size="5">Education</h2>
+        <table class="edu">
+          <caption class="sr-only">Education and experience, oldest first</caption>
+          <thead><tr><th scope="col">When</th><th scope="col">What</th><th scope="col">Detail</th></tr></thead>
+          <tbody>
+            <tr><td class="when">2021 to 2024</td><th scope="row">SMK Prakarya Internasional Bandung</th><td>Software Engineering (RPL). Graduated in 2024.</td></tr>
+            <tr><td class="when">Jan 11 to Mar 31, 2023</td><th scope="row">Front-end developer intern (PKL), PT Sarana Pactindo, Bandung</th><td>Built front-end parts of the Bank Sulselbar internet banking web app with Vue.js 3 and Quasar Framework. Tested REST API endpoints in Postman with the backend team.</td></tr>
+            <tr><td class="when">Sep 2024 to Feb 2026</td><th scope="row">Goethe-Institut Jakarta, German</th><td>Superintensiv courses from A1 to B2, plus B1 exam preparation. Goethe-Zertifikat B1 modules passed: Sprechen (Apr 2025), Hören and Schreiben (Jun 2025). Working toward the full B1 certificate.</td></tr>
+            <tr><td class="when">Jun to Aug 2026</td><th scope="row">MerdekaSiber Academy, Cyber Security Engineer Bootcamp (Batch 27)</th><td>A 60-hour program. Completed with a Certificate of Excellence (credential ID MS/BOCSE/COE/27/2026/008).</td></tr>
+            <tr><td class="when">Nov 16, 2026 to Jan 12, 2027 (ongoing)</td><th scope="row">Spitze Studium, B1 Intensivkurs</th><td>Intensive B1 course. I am about halfway through.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="window" aria-labelledby="contact-h">
+      <div class="titlebar">
+        <span aria-hidden="true">Contact</span>
+        <a class="win-btn" href="#desktop" aria-label="Back to the desktop"><span data-icon="up" data-size="3"></span></a>
+      </div>
+      <div class="win-body">
+        <h2 id="contact-h" tabindex="-1" class="px h2" data-pixel-size="5">Contact</h2>
+        <ul class="contact">
+          <li><span class="label">Email</span><a href="mailto:qsa.aria@gmail.com">qsa.aria@gmail.com</a><span class="copy"><button type="button" class="btn small" data-copy="qsa.aria@gmail.com">Copy email address</button><span role="status" class="copy-msg"></span></span></li>
+          <li><span class="label">Discord</span><span class="copy"><button type="button" class="btn small" data-copy="foursakenn" aria-label="Copy Discord username foursakenn">foursakenn (click to copy)</button><span role="status" class="copy-msg"></span></span></li>
+          <li><span class="label">LinkedIn</span><a href="https://linkedin.com/in/qsaaria" target="_blank" rel="noopener noreferrer">linkedin.com/in/qsaaria<span class="sr-only"> (opens in a new tab)</span></a></li>
+          <li><span class="label">GitHub</span><a href="https://github.com/MonochromeV1" target="_blank" rel="noopener noreferrer">github.com/MonochromeV1<span class="sr-only"> (opens in a new tab)</span></a></li>
+          <li><span class="label">CTFtime</span><a href="https://ctftime.org/user/271360" target="_blank" rel="noopener noreferrer">ctftime.org/user/271360<span class="sr-only"> (opens in a new tab)</span></a></li>
+          <li><span class="label">CV</span><a href="https://drive.google.com/file/d/1xcFM4zO_D7fVg6WINY65bSfsQYm3CYX3/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV (Google Drive)<span class="sr-only"> (opens in a new tab)</span></a></li>
+        </ul>
+      </div>
+    </section>
+      </main>
+
+      <footer class="site-foot">monosaurus, <span id="year">2026</span></footer>
+
+      <div class="taskbar">
+        <nav aria-label="Taskbar">
+          <ul>
+          <li><a href="#intro" class="task-link" aria-label="Intro" title="Intro"><span data-icon="doc" data-size="2"></span></a></li>
+          <li><a href="#specs" class="task-link" aria-label="PC specs" title="PC specs"><span data-icon="pc" data-size="2"></span></a></li>
+          <li><a href="#work" class="task-link" aria-label="Work" title="Work"><span data-icon="folder" data-size="2"></span></a></li>
+          <li><a href="#security" class="task-link" aria-label="Security and CTF" title="Security and CTF"><span data-icon="lock" data-size="2"></span></a></li>
+          <li><a href="#skills" class="task-link" aria-label="Skills" title="Skills"><span data-icon="case" data-size="2"></span></a></li>
+          <li><a href="#education" class="task-link" aria-label="Education" title="Education"><span data-icon="book" data-size="2"></span></a></li>
+          <li><a href="#contact" class="task-link" aria-label="Contact" title="Contact"><span data-icon="mail" data-size="2"></span></a></li>
+          </ul>
+        </nav>
+        <span class="clock" id="clock"></span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<!-- Ym9vISBkaWQgaSBzY2FyZSB1Pwp0aGVyZSBpcyBub3RoaW5nIHRvIHNlZSBoZXJlIG90aGVyIHRoYW4gYmFzZTY0IHRoYXQgaSB3cml0ZSBpbiB0aGUgbWlkZGxlIG9mIHRoZSBuaWdodAp+IG1vbm8= -->
